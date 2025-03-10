@@ -7,6 +7,7 @@ const Products = () => {
         <h1 className='text-4xl font-bold mb-6'>
           <span className='text-[#F28123]'>Our</span>{' '}
           <span className='text-[#051922]'>Products</span>
+          <div className="mx-auto border-b-3 border-orange-500 w-12 py-1.5"></div>
         </h1>
         <p className='text-[#555] text-lg max-w-[600px] mx-auto'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla vitae, ab magni cupiditate ea.
