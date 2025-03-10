@@ -1,9 +1,15 @@
 import React from "react";
+import SmallBanner from "../components/SmallBanner";
 
 const About = () => {
 
+    const subTitle = 'We sale fresh fruits'
+    const title = 'About us'
+
     return (
-        <div className="text-6xl text-center py-6">About</div>
+       <>
+       <SmallBanner subTitle = {subTitle} Title = {title} />
+       </>
     )
 }
 export default About
