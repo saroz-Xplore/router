@@ -100,8 +100,24 @@ const Footer = () => {
   
   
         </div>
+
+        {/* Copyright */}
+          <div class = "mt-[75px] ml-[145px] ">
+              <h1 className='opacity-75 flex gap-1'> Copyrights 2025 -  
+                <div class = "text-orange-400">
+                <a href="https://www.carpro.com/hs-fs/hubfs/2023-Chevrolet-Corvette-Z06-credit-chevrolet.jpeg?width=1020&name=2023-Chevrolet-Corvette-Z06-credit-chevrolet.jpeg">Saroj Simkhada</a>
+                </div>
+                , All Rights Reserved.</h1>
+                <div class = "flex">
+              <p className='opacity-75'>Distributed By - </p>
+              <div class = "text-orange-400 opacity-75">
+              <a href="https://themewagon.com/">Themewagon</a>
+              </div>
+              </div>
+              </div>
       </footer>
     )
   }
+
   
   export default Footer
